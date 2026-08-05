@@ -1,2 +1,0 @@
-from telegram import Update
-8901966728:AAGAVZ3aH0PPMJn1C3AebacMA4i3NO1Q-fA
