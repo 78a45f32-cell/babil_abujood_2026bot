@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
-TOKEN = "حط_التوكن_هنا"
+TOKEN = 8901966728:AAEPIgrGOHSDFI1t_E2hxQ0Qu2dNCCwXzFc
 
 AREAS = [
 "الحلة المركز","الكفل","القاسم","المسيب","الهاشمية",
@@ -37,7 +37,7 @@ async def handle(update, context):
     except:
         await update.message.reply_text("دز رقم فقط")
 
-app = Application.builder().token(TOKEN).build()
+app = Application.builder().token(8901966728:AAEPIgrGOHSDFI1t_E2hxQ0Qu2dNCCwXzFc).build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle))
 app.run_polling()
